@@ -1,5 +1,7 @@
 # Online Store Sales Analysis 
 
+[Ver dashboard en Tableau Online](https://public.tableau.com/views/SalesAnalysisReport_16507510155680/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link)
+
 ## Resumen
 0. Planteamiento del problema
 1. Preparación de datos
@@ -136,6 +138,7 @@ FROM new_sales
 GROUP BY Product 
 ORDER BY quantity_ordered DESC
 ```
+[Ver dashboard en Tableau Online](https://public.tableau.com/views/SalesAnalysisReport_16507510155680/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link)
 
 ## Insights
 ### Conclusiones
@@ -150,7 +153,7 @@ ORDER BY quantity_ordered DESC
 - Se recomienda lanzar una campaña agresiva para cerrar ventas dentro de un horario de 10:00 a 21:00 horas
 - 
 -
--
+
 
 
 
