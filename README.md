@@ -156,7 +156,7 @@ ORDER BY quantity_ordered DESC
 - Para aumentar la venta promedio por orden se recomienda crear campañas de promociones y descuentos al comprar 2 o más productos sugeridos según el usuario.
 - Se extiende la recomendación de establecer campañas de tráfico al sitio con una IP diferente a los estados en donde la tienda tiene presencia con el objetivo de extender la presencia de la empresa. 
 
-Se invita a los interesados a realizar un análisis más exhaustivo dentro de su sitio web de variables como: número de carritos abiertos, tiempo promedio de compra, y número de carritos recuperados.
+Se invita a los interesados a realizar un análisis más exhaustivo de las siguientes variables dentro de su sitio web: número de carritos abiertos, tiempo promedio de compra, y número de carritos recuperados.
 
 ## Te invito a ver mis otros proyectos [Ver más](https://github.com/CesarFurlong)
 
