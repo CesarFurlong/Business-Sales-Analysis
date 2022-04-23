@@ -151,8 +151,8 @@ ORDER BY quantity_ordered DESC
 
 ### Recomendaciones
 - Se recomienda lanzar una campaña agresiva para cerrar ventas y recuperar carritos dentro de un horario de 10:00 a 21:00 horas
-- Para aumentar la venta promedio por orden se recomienda crear campañas de promociones y descuentos de envio al comprar 2 o más productos sugeridos según el usuario.
-- Se extiende la recomendación de establecer campañas de tráfico al sitio con una IP diferente a los estados en donde la tienda tiene presencia.  
+- Para aumentar la venta promedio por orden se recomienda crear campañas de promociones y descuentos al comprar 2 o más productos sugeridos según el usuario.
+- Se extiende la recomendación de establecer campañas de tráfico al sitio con una IP diferente a los estados en donde la tienda tiene presencia con el objetivo de extender la presencia de la empresa. 
 
 Se invita a los interesados a realizar un análisis más exhaustivo dentro de su sitio web de variables como: número de carritos abiertos, tiempo promedio de compra, y número de carritos recuperados.
 
