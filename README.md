@@ -1,5 +1,4 @@
 # Online Store Sales Analysis 
-Analysis of sales performance in a store
 
 ## Resumen
 0. Planteamiento del problema
@@ -9,6 +8,10 @@ Analysis of sales performance in a store
 4. Conclusiones y recomendaciones
 
 ## Planteamiento del problema
+
+❓ Estados Unidos es uno de los mercados más atractivos para cualquiera que tenga una tienda online a pesar de la inmensa competencia, ya que existen infinidad de oportunidades en el eCommerce en el país, una oportunidad que sigue creciendo de acuerdo a las últimas cifras proporcionadas por el Departamento de Comercio de la Oficina del Censo de los Estados Unidos.
+
+🎯 Una tienda de tecnología tiene un 1 año en el mercado del e-comerce y quiere posicionar su prescencia de marca en Estados Unidos.
 
 ## Preparación de los datos
 El conjunto de datos contiene información de ventas de una tienda online durante 13 meses. El conjunto de datos consta de 10 columnas y 185.970 filas, cada una de las cuales representa un atributo de compra en un producto adquirido. 
@@ -101,7 +104,7 @@ ORDER BY total_sales DESC
 Q2: ¿Cuáles son las ventas totales y el número de pedidos por estado?
 
 ``` bash
-SELECT c.state, ROUND(SUM(Sales),2) AS total_sales, count(OrderID) AS order_number
+SELECT c.state, ROUND(SUM(Sales),2) AS total_sales, count(OrderID) AS order_number, 
 FROM new_sales As n
 INNER JOIN code_state AS c 
 ON n.state = c.code
@@ -109,20 +112,18 @@ GROUP BY c.state
 ORDER BY SUM(Sales) DESC
 ```
 
-Q3: ¿Qué ciudad ha comprado más productos?
+Q3: ¿Cual es el total de ventas, número de ordenes totales, suma de productos vendidos y venta promedio por orden?
 
 ``` bash
-SELECT city, SUM(QuantityOrdered) AS quantity_product_order, ROUND(SUM(Sales),2) AS total_sales
+SELECT ROUND(SUM(Sales),2) AS total_sales , count(OrderID) AS total_orders, SUM(QuantityOrdered) AS num_products_sold, ROUND(SUM(Sales),2)/count(OrderID) AS avg_sales_per_order
 FROM new_sales
-GROUP BY city
-ORDER BY quantity_product_order DESC
 ```
 
 Q4: ¿A qué hora debemos mostrar los anuncios para maximizar la probabilidad de que el cliente compre el producto?
 
 ``` bash
 SELECT Hour, count(*) AS count
-FROM sales 
+FROM new_sales 
 GROUP BY Hour
 ORDER BY count DESC
 ```
@@ -136,20 +137,18 @@ GROUP BY Product
 ORDER BY quantity_ordered DESC
 ```
 
-Q6: Promedio de compra por pedido
-
 ## Insights
 ### Conclusiones
 - La tienda en línea tiene presencia de marca en 8 estados de Estados Unidos.
 - San Francisco, Los Angeles y Nueva York son las ciudades que representan el 53% del flujo de ordenes totales.
-- La temporada de ventas más fuerte es de tal a tal
-- El rango de horas donde se concretan la mayor parte de las ventas es:
-- El promedio de compra por pedido es X.00 USD
-- Los productos best seller de la empresa son: MacBook Pro, iPhone y ThinkPad Laptop
+- La temporada de ventas más fuerte es el último trimestre del año.
+- El rango de horas donde se concretan la mayor parte de las ventas es de: 11:00 a 17:00 horas.
+- El promedio de compra por pedido es 185.48 USD.
+- Los productos best seller de la tienda son: MacBook Pro, iPhone y ThinkPad Laptop.
 
 ### Recomendaciones
--
--
+- Se recomienda lanzar una campaña agresiva para cerrar ventas dentro de un horario de 10:00 a 21:00 horas
+- 
 -
 -
 
