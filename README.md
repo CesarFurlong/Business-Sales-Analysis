@@ -1,6 +1,7 @@
 # Online Store Sales Analysis 
 
 [Ver dashboard en Tableau Online](https://public.tableau.com/views/SalesAnalysisReport_16507510155680/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link)
+
 [Ver más proyectos](https://github.com/CesarFurlong)
 
 ## Resumen
