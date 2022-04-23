@@ -7,7 +7,7 @@
 1. Preparación de datos
 2. Limpieza de datos
 3. Exploración de datos
-4. Conclusiones y recomendaciones
+4. Insights
 
 ## Planteamiento del problema
 
@@ -150,11 +150,11 @@ ORDER BY quantity_ordered DESC
 - Los productos best seller de la tienda son: MacBook Pro, iPhone y ThinkPad Laptop.
 
 ### Recomendaciones
-- Se recomienda lanzar una campaña agresiva para cerrar ventas dentro de un horario de 10:00 a 21:00 horas
-- 
--
+- Se recomienda lanzar una campaña agresiva para cerrar ventas y recuperar carritos dentro de un horario de 10:00 a 21:00 horas
+- Para aumentar la venta promedio por orden se recomienda crear campañas de promociones y descuentos de envio al comprar 2 o más productos sugeridos según el usuario.
+- Se extiende la recomendación de establecer campañas de tráfico al sitio con una IP diferente a los estados en donde la tienda tiene presencia.  
 
-
+Se invita a los interesados a realizar un análisis más exhaustivo dentro de su sitio web de variables como: número de carritos abiertos, tiempo promedio de compra, y número de carritos recuperados.
 
 
 
