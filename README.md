@@ -22,13 +22,13 @@ El conjunto de datos contiene información de ventas de una tienda online durant
 
 | Nombre de columna | Descripción |
 | :------: | :------: |
-| OrderID | Unique ID for each order |
-| Product | Item being purchased |
-| QuantityOrdered | Quantity of products ordered |
-| PriceEach | Price for one unit of that product |
-| OrderDate | Date the order is placed |
-| PurchaseAddress | Address to which the order is shipped |
-| Sales | Total price for each order |
+| OrderID | ID único para cada orden |
+| Product | Nombre del producto comprado |
+| QuantityOrdered | Número de productos ordenados |
+| PriceEach | Precio unitario del producto |
+| OrderDate | Fecha de orden |
+| PurchaseAddress | Dirección del domicilio |
+| Sales | Precio total de la orden |
 
 Fuente del dataset: [Kaggle](https://www.kaggle.com/datasets/beekiran/sales-data-analysis)
 
