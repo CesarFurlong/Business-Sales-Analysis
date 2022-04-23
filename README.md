@@ -1,6 +1,7 @@
 # Online Store Sales Analysis 
 
 [Ver dashboard en Tableau Online](https://public.tableau.com/views/SalesAnalysisReport_16507510155680/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link)
+[Ver más proyectos](https://github.com/CesarFurlong)
 
 ## Resumen
 0. Planteamiento del problema
@@ -13,7 +14,7 @@
 
 ❓ Estados Unidos es uno de los mercados más atractivos para cualquiera que tenga una tienda online a pesar de la inmensa competencia, ya que existen infinidad de oportunidades en el eCommerce en el país, una oportunidad que sigue creciendo de acuerdo a las últimas cifras proporcionadas por el Departamento de Comercio de la Oficina del Censo de los Estados Unidos.
 
-🎯 Una tienda de tecnología tiene un 1 año en el mercado del e-comerce y quiere posicionar su prescencia de marca en Estados Unidos.
+🎯 Una tienda de tecnología tiene un 1 año en el mercado del e-comerce y quiere posicionar su presencia de marca en Estados Unidos.
 
 ## Preparación de los datos
 El conjunto de datos contiene información de ventas de una tienda online durante 13 meses. El conjunto de datos consta de 10 columnas y 185.970 filas, cada una de las cuales representa un atributo de compra en un producto adquirido. 
@@ -156,7 +157,7 @@ ORDER BY quantity_ordered DESC
 
 Se invita a los interesados a realizar un análisis más exhaustivo dentro de su sitio web de variables como: número de carritos abiertos, tiempo promedio de compra, y número de carritos recuperados.
 
-
+# Te invito a ver mis otros proyectos [Ver más](https://github.com/CesarFurlong)
 
 
 
