@@ -109,7 +109,7 @@ GROUP BY c.state
 ORDER BY SUM(Sales) DESC
 ```
 
-Q3: ¿Qué ciudad ha vendido más productos?
+Q3: ¿Qué ciudad ha comprado más productos?
 
 ``` bash
 SELECT city, SUM(QuantityOrdered) AS quantity_product_order, ROUND(SUM(Sales),2) AS total_sales
@@ -129,11 +129,29 @@ ORDER BY count DESC
 
 Q5: ¿Qué producto se ha vendido más? ¿Por qué cree que se ha vendido más?
 
+```
+SELECT Product, SUM(QuantityOrdered) AS quantity_ordered, ROUND(SUM(Sales),2) AS total_sales
+FROM new_sales
+GROUP BY Product 
+ORDER BY quantity_ordered DESC
+```
 
-## Conclusiones y recomendaciones
+Q6: Promedio de compra por pedido
 
+## Insights
+### Conclusiones
+- La tienda en línea tiene presencia de marca en 8 estados de Estados Unidos.
+- San Francisco, Los Angeles y Nueva York son las ciudades que representan el 53% del flujo de ordenes totales.
+- La temporada de ventas más fuerte es de tal a tal
+- El rango de horas donde se concretan la mayor parte de las ventas es:
+- El promedio de compra por pedido es X.00 USD
+- Los productos best seller de la empresa son: MacBook Pro, iPhone y ThinkPad Laptop
 
-
+### Recomendaciones
+-
+-
+-
+-
 
 
 
